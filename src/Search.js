@@ -4,15 +4,9 @@ import "./Search.css";
 
 export default function Search() {
   const [keyword, setKeyWord] = useState(null);
-  const [defintion, setDefintion] = useState(null);
 
   function handleSearch(response) {
     console.log(response.data[0]);
-    let def = response.data[0];
-    setDefintion({
-      word: def.word,
-      phonetics: def.phonetics[0].text,
-    });
   }
 
   function search(event) {
@@ -47,9 +41,6 @@ export default function Search() {
           </button>
         </div>
       </form>
-
-      <h1>{defintion.word}</h1>
-      <h1>{defintion.phonetics}</h1>
     </main>
   );
 }
