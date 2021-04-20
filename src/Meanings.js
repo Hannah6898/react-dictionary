@@ -1,9 +1,9 @@
 import React from "react";
+import "./Meanings.css";
 
 export default function Meanings(props) {
-  console.log(props.meaning);
   return (
-    <main>
+    <main className="Meanings">
       <h1>{props.meaning.partOfSpeech}</h1>
       {props.meaning.definitions.map(function (definition, index) {
         return (

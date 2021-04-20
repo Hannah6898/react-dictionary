@@ -1,0 +1,17 @@
+.SearchResults section {
+  background-color: white;
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.SearchResults h1 {
+  color: #ffa500;
+  margin: 0;
+  padding: 20px 0;
+  text-transform: capitalize;
+}
+
+.SearchResults h2 {
+  color: #ffa500;
+}
