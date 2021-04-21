@@ -18,6 +18,7 @@ export default function searchResults(props) {
             );
           })}
         </section>
+
         {props.results.meanings.map(function (meaning, index) {
           return (
             <div key={index}>

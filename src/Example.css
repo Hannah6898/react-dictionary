@@ -1,9 +1,7 @@
 .Example h4 {
-  padding: 15px 0 5px 15px;
-  font-size: 18px;
+  font-size: 15px;
   text-transform: capitalize;
-}
-
-.Example .title {
-  color: #03a9f4;
+  opacity: 0.6;
+  font-style: italic;
+  margin: 0;
 }

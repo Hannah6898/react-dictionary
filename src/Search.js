@@ -51,6 +51,6 @@ export default function Search(props) {
     );
   } else {
     load();
-    return "loading";
+    return "Loading";
   }
 }

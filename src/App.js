@@ -1,10 +1,12 @@
 import "./App.css";
-import Dictionary from "./Dictionary";
+import Search from "./Search";
 
 export default function App() {
   return (
-    <div className="App">
-      <Dictionary />
-    </div>
+    <main className="App">
+      <h1>Dictionary</h1>
+      <h2>Type any word below</h2>
+      <Search defaultKeyWord="Dictionary" />
+    </main>
   );
 }

@@ -1,3 +1,7 @@
+.Phonetics {
+  margin: 12px 0 10px 0;
+}
+
 .Phonetics .text {
   color: #ffa500;
   text-align: left;
@@ -6,10 +10,17 @@
 }
 
 .Phonetics a {
-  padding-left: 10px;
-  color: #03a9f4;
+  font-size: 14px;
+  padding: 8px;
+  margin-left: 10px;
+  color: white;
+  background-color: #ffa500;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
 }
 
 .Phonetics a:hover {
   color: #ffa500;
+  background-color: white;
 }

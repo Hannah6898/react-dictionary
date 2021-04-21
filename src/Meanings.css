@@ -1,18 +1,21 @@
-.Meanings h4 {
-  padding: 15px 0 5px 15px;
-  font-size: 18px;
-}
-
-.Meanings h1 {
+.Meanings h2 {
   font-size: 25px;
+  color: #ffa500;
+  text-align: left;
+  padding: 15px 0 0 15px;
+  margin: 0;
 }
 
-.Meanings .title {
-  color: #03a9f4;
+.Meanings h4 {
+  text-align: left;
+  padding-left: 15px;
+  font-size: 20px;
 }
-.Meanings hr {
-  color: #ffa000;
-  max-width: 600px;
-  margin: 10px auto;
-  height: 5px;
+
+.Meanings .definition {
+  margin-top: 20px;
+}
+
+.Meanings main {
+  margin-bottom: 30px;
 }

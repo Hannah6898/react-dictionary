@@ -1,12 +1,19 @@
-.Synonyms h4 {
-  color: #03a9f4;
-  font-size: 18px;
+.Synonyms {
+  margin: 0;
+  padding: 15px 0 0 15px;
 }
 
 .Synonyms ul {
-  list-style-type: none;
+  padding: 0;
 }
 
 .Synonyms li {
-  font-size: 18px;
+  display: inline-block;
+  padding-right: 20px;
+  font-size: 15px;
+}
+
+.Synonyms h3 {
+  font-size: 17px;
+  font-weight: bold;
 }
