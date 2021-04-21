@@ -1,7 +1,14 @@
 .Meanings {
   background-color: white;
   color: #ffa500;
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 750px;
   border-radius: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.Meanings h4 {
+  padding: 15px 0 5px 15px;
+  font-size: 20px;
 }

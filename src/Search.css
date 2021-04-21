@@ -5,4 +5,14 @@
 
 .Search button {
   color: white;
+  border-color: #db8f04;
+}
+
+.Search button:hover {
+  color: #db8f04;
+  background-color: white;
+}
+
+.Search input {
+  border-color: #db8f04;
 }

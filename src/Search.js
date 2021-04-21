@@ -35,7 +35,7 @@ export default function Search() {
           ></input>
           <button
             className="btn btn-outline-light"
-            type="button"
+            type="submit"
             id="button-addon2"
           >
             Search

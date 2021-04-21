@@ -1,0 +1,10 @@
+.Phonetics .text {
+  color: #ffa500;
+  text-align: left;
+  padding: 5px 0 0 11px;
+  margin: 0;
+}
+
+.Phonetics a {
+  padding-left: 10px;
+}

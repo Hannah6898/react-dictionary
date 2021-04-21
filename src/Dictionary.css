@@ -1,11 +1,11 @@
 .Dictionary {
   font-family: "Balsamiq Sans", cursive;
-  color: white;
 }
 
 .Dictionary h1,
 h2 {
   text-align: center;
+  color: white;
 }
 
 .Dictionary h1 {
