@@ -5,7 +5,7 @@ import "./SearchResults.css";
 export default function searchResults(props) {
   if (props.results) {
     return (
-      <main className="SearchResults">
+      <div className="SearchResults">
         <section>
           <h1>{props.results.word}</h1>
           <h2>{props.results.phonetics[0].text}</h2>
@@ -17,7 +17,7 @@ export default function searchResults(props) {
             </div>
           );
         })}
-      </main>
+      </div>
     );
   } else {
     return null;
