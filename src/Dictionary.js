@@ -7,7 +7,7 @@ export default function Dictionary() {
     <main className="Dictionary">
       <h1>Dictionary</h1>
       <h2>Type any word below</h2>
-      <Search />
+      <Search defaultKeyWord="dictionary" />
     </main>
   );
 }

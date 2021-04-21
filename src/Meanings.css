@@ -1,6 +1,10 @@
 .Meanings h4 {
   padding: 15px 0 5px 15px;
-  font-size: 20px;
+  font-size: 18px;
+}
+
+.Meanings h1 {
+  font-size: 25px;
 }
 
 .Meanings .title {

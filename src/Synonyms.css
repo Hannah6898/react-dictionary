@@ -1,3 +1,12 @@
 .Synonyms h4 {
   color: #03a9f4;
+  font-size: 18px;
+}
+
+.Synonyms ul {
+  list-style-type: none;
+}
+
+.Synonyms li {
+  font-size: 18px;
 }
