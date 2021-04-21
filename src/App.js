@@ -6,7 +6,7 @@ export default function App() {
     <main className="App">
       <h1>Dictionary</h1>
       <h2>Type any word below</h2>
-      <Search defaultKeyWord="Dictionary" />
+      <Search defaultKeyword="Dictionary" />
     </main>
   );
 }

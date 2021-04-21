@@ -4,7 +4,7 @@ import "./Search.css";
 import SearchResults from "./SearchResults";
 
 export default function Search(props) {
-  const [keyword, setKeyWord] = useState(props.defaultKeyWord);
+  const [keyword, setKeyWord] = useState(props.defaultKeyword);
   const [definition, setDefinition] = useState(null);
   const [loaded, setLoaded] = useState(false);
 
