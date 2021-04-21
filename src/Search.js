@@ -33,13 +33,6 @@ export default function Search() {
             aria-describedby="button-addon2"
             onChange={handleChange}
           ></input>
-          <button
-            className="btn btn-outline-light"
-            type="submit"
-            id="button-addon2"
-          >
-            Search
-          </button>
         </div>
       </form>
       <SearchResults results={definition} />

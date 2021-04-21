@@ -1,14 +1,14 @@
-.Meanings {
-  background-color: white;
-  color: #ffa500;
-  max-width: 750px;
-  border-radius: 10px;
-  margin: 10px auto;
-  border-radius: 10px;
-  padding-bottom: 10px;
-}
-
 .Meanings h4 {
   padding: 15px 0 5px 15px;
   font-size: 20px;
+}
+
+.Meanings .title {
+  color: #03a9f4;
+}
+.Meanings hr {
+  color: #ffa000;
+  max-width: 600px;
+  margin: 10px auto;
+  height: 5px;
 }

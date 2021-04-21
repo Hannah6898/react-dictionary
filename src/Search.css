@@ -1,18 +1,10 @@
 .Search .search-bar {
-  max-width: 500px;
+  width: 70%;
   margin: 50px auto;
-}
-
-.Search button {
-  color: white;
-  border-color: #db8f04;
-}
-
-.Search button:hover {
-  color: #db8f04;
-  background-color: white;
 }
 
 .Search input {
   border-color: #db8f04;
+  padding: 12px;
+  border-radius: 10px;
 }

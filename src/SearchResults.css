@@ -1,9 +1,9 @@
 .SearchResults section {
   background-color: white;
-  max-width: 750px;
+  width: 70%;
   margin: 10px auto;
   border-radius: 10px;
-  padding-bottom: 10px;
+  padding: 0 10px 10px 0;
 }
 
 .SearchResults h1 {

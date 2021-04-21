@@ -7,4 +7,9 @@
 
 .Phonetics a {
   padding-left: 10px;
+  color: #03a9f4;
+}
+
+.Phonetics a:hover {
+  color: #ffa500;
 }

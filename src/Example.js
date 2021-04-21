@@ -6,7 +6,10 @@ export default function Example(props) {
     return (
       <div className="Example">
         <h4>
-          <strong>Example:</strong> {props.example}
+          <span className="title">
+            <strong>Example:</strong>{" "}
+          </span>
+          {props.example}
         </h4>
       </div>
     );
