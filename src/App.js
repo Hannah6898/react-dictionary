@@ -1,5 +1,6 @@
 import "./App.css";
 import Search from "./Search";
+import Footer from "./Footer";
 
 export default function App() {
   return (
@@ -7,6 +8,7 @@ export default function App() {
       <h1>Dictionary</h1>
       <h2>Type any word below</h2>
       <Search defaultKeyword="Dictionary" />
+      <Footer />
     </main>
   );
 }
