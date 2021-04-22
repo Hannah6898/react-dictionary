@@ -2,14 +2,20 @@ import axios from "axios";
 import React, { useState } from "react";
 import "./Search.css";
 import SearchResults from "./SearchResults";
+import Images from "./Images";
 
 export default function Search(props) {
   const [keyword, setKeyWord] = useState(props.defaultKeyword);
   const [definition, setDefinition] = useState(null);
   const [loaded, setLoaded] = useState(false);
+  const [photos, setPhotos] = useState(null);
 
-  function handleSearch(response) {
+  function handleDictionarySearch(response) {
     setDefinition(response.data[0]);
+  }
+
+  function handleImageSearch(response) {
+    setPhotos(response.data.photos);
   }
 
   function handleSubmit(event) {
@@ -19,7 +25,13 @@ export default function Search(props) {
 
   function search() {
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
-    axios.get(apiUrl).then(handleSearch);
+    axios.get(apiUrl).then(handleDictionarySearch);
+
+    let pexelsApiKey =
+      "563492ad6f91700001000001aa19275a0b944cb79a191d78d3e28e4b";
+    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=3`;
+    let headers = { Authorization: `Bearer ${pexelsApiKey}` };
+    axios.get(pexelsApiUrl, { headers }).then(handleImageSearch);
   }
 
   function handleChange(event) {
@@ -47,6 +59,7 @@ export default function Search(props) {
           </div>
         </form>
         <SearchResults results={definition} />
+        <Images photos={photos} />
       </main>
     );
   } else {

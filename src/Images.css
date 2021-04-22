@@ -1,0 +1,11 @@
+.Images {
+  background-color: white;
+  width: 70%;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 20px 20px 20px 20px;
+}
+
+.Images img {
+  border-radius: 3px;
+}
