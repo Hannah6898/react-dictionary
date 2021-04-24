@@ -9,18 +9,8 @@
   margin: 0;
 }
 
-.Phonetics a {
-  font-size: 14px;
-  padding: 8px;
-  margin-left: 10px;
-  color: white;
-  background-color: #1976d2;
-  border-radius: 20px;
-  text-decoration: none;
-  transition: all 150ms ease-in-out;
-}
-
-.Phonetics a:hover {
-  color: #1976d2;
-  background-color: white;
+.Phonetics .audio-player {
+  position: relative;
+  left: 20px;
+  top: 15px;
 }
