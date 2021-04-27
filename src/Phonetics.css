@@ -14,3 +14,9 @@
   left: 20px;
   top: 15px;
 }
+
+@media (max-width: 750px) {
+  .Phonetics audio {
+    width: 200px;
+  }
+}
