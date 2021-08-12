@@ -6,7 +6,7 @@ import "./SearchResults.css";
 export default function searchResults(props) {
   if (props.results) {
     return (
-      <div className="SearchResults">
+      <div className="search-results">
         <section>
           <h1>{props.results.word}</h1>
 

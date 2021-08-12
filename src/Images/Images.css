@@ -1,4 +1,4 @@
-.Images {
+.images {
   background-color: white;
   width: 70%;
   margin: 20px auto;
@@ -6,6 +6,6 @@
   padding: 20px 20px 20px 20px;
 }
 
-.Images img {
+.images img {
   border-radius: 3px;
 }

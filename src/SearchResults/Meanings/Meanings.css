@@ -1,4 +1,4 @@
-.Meanings h2 {
+.meanings h2 {
   font-size: 25px;
   color: #1976d2;
   text-align: left;
@@ -6,16 +6,16 @@
   margin: 0;
 }
 
-.Meanings h4 {
+.meanings h4 {
   text-align: left;
   padding-left: 15px;
   font-size: 20px;
 }
 
-.Meanings .definition {
+.meanings .definition {
   margin-top: 20px;
 }
 
-.Meanings main {
+.meanings main {
   margin-bottom: 30px;
 }

@@ -1,12 +1,12 @@
-.Footer {
+.footer {
   text-align: center;
   margin-bottom: 20px;
 }
 
-.Footer a {
+.footer a {
   color: #1976d2;
 }
 
-.Footer a:hover {
+.footer a:hover {
   color: white;
 }

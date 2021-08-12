@@ -1,4 +1,4 @@
-.SearchResults section {
+.search-results section {
   background-color: white;
   width: 70%;
   margin: 10px auto;
@@ -6,7 +6,7 @@
   padding: 0 10px 10px 0;
 }
 
-.SearchResults h1 {
+.search-results h1 {
   color: #1976d2;
   text-align: left;
   padding: 15px 0 0 15px;

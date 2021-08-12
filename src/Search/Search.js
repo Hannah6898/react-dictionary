@@ -45,7 +45,7 @@ export default function Search(props) {
 
   if (loaded) {
     return (
-      <main className="Search">
+      <main className="search">
         <form onSubmit={handleSubmit}>
           <div className=" search-bar input-group ">
             <input

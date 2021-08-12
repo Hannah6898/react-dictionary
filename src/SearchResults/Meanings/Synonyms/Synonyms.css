@@ -1,19 +1,19 @@
-.Synonyms {
+.synonyms {
   margin: 0;
   padding: 15px 0 0 15px;
 }
 
-.Synonyms ul {
+.synonyms ul {
   padding: 0;
 }
 
-.Synonyms li {
+.synonyms li {
   display: inline-block;
   padding-right: 20px;
   font-size: 15px;
 }
 
-.Synonyms h3 {
+.synonyms h3 {
   font-size: 17px;
   font-weight: bold;
 }

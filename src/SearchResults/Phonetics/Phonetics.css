@@ -1,15 +1,15 @@
-.Phonetics {
+.phonetics {
   margin: 12px 0 10px 0;
 }
 
-.Phonetics .text {
+.phonetics .text {
   color: #1976d2;
   text-align: left;
   padding: 5px 0 0 11px;
   margin: 0;
 }
 
-.Phonetics .audio-player {
+.phonetics .audio-player {
   position: relative;
   left: 20px;
   top: 15px;

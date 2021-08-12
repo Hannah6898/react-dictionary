@@ -2,20 +2,20 @@ body {
   background-color: #03a9f49e;
 }
 
-.App {
+.app {
   font-family: "Balsamiq Sans", cursive;
 }
 
-.App h1,
+.app h1,
 h2 {
   text-align: center;
   color: black;
 }
 
-.App h1 {
+.app h1 {
   margin: 30px 0 10px 0;
 }
 
-.App h2 {
+.app h2 {
   margin-top: 30px;
 }

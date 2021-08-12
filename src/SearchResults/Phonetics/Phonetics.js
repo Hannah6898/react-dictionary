@@ -7,7 +7,7 @@ export default function Phonetics(props) {
     return null;
   }
   return (
-    <div className="Phonetics">
+    <div className="phonetics">
       <span className="text">
         <em>{props.phonetics.text}</em>
       </span>

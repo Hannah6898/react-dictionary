@@ -1,9 +1,9 @@
-.Search .search-bar {
+.search .search-bar {
   width: 70%;
   margin: 50px auto;
 }
 
-.Search input {
+.search input {
   padding: 12px;
   border-radius: 10px;
   font-size: 20px;

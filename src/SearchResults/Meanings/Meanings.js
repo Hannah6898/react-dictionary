@@ -5,7 +5,7 @@ import Example from "./Example/Example";
 
 export default function Meanings(props) {
   return (
-    <div className="Meanings">
+    <div className="meanings">
       <section>
         <h2>
           <strong>{props.meaning.partOfSpeech}</strong>
