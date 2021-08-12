@@ -1,6 +1,6 @@
 import "./App.css";
-import Search from "./Search";
-import Footer from "./Footer";
+import Search from "./Search/Search";
+import Footer from "./Footer/Footer";
 
 export default function App() {
   return (

@@ -1,8 +1,8 @@
 import axios from "axios";
 import React, { useState } from "react";
 import "./Search.css";
-import SearchResults from "./SearchResults";
-import Images from "./Images";
+import SearchResults from "../SearchResults/SearchResults";
+import Images from "../Images/Images";
 
 export default function Search(props) {
   const [keyword, setKeyWord] = useState(props.defaultKeyword);
