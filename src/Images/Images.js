@@ -2,6 +2,8 @@ import React from "react";
 import "./Images.css";
 
 export default function Images(props) {
+  /*This if statement states the JSX will load if the photos props is true
+   else it will return null*/
   if (props.photos) {
     return (
       <div className="images">

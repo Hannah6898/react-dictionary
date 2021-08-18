@@ -4,6 +4,8 @@ import Phonetics from "./Phonetics/Phonetics";
 import "./SearchResults.css";
 
 export default function searchResults(props) {
+  /*This if statement states the JSX will load if the results props is true
+   else it will return null*/
   if (props.results) {
     return (
       <div className="search-results">
