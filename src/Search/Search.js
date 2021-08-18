@@ -27,8 +27,7 @@ export default function Search(props) {
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
     axios.get(apiUrl).then(handleDictionarySearch);
 
-    let pexelsApiKey =
-      "563492ad6f91700001000001aa19275a0b944cb79a191d78d3e28e4b";
+    let pexelsApiKey = process.env.REACT_APP_API_KEY;
     let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=3`;
     let headers = { Authorization: `Bearer ${pexelsApiKey}` };
     axios.get(pexelsApiUrl, { headers }).then(handleImageSearch);
