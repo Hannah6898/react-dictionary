@@ -28,9 +28,10 @@ export default function Search(props) {
   }
   //This function is making two api calls to receive the definitions on the word search and the images
   function search() {
-    let pexelsApiKey = process.env.REACT_APP_API_KEY;
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
     axios.get(apiUrl).then(handleDictionarySearch);
+    let pexelsApiKey =
+      "563492ad6f91700001000001aa19275a0b944cb79a191d78d3e28e4b";
     let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=3`;
     let headers = { Authorization: `Bearer ${pexelsApiKey}` };
     axios.get(pexelsApiUrl, { headers }).then(handleImageSearch);
